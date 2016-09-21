@@ -14,7 +14,7 @@ The dataset for this problem was obtained from the Bureau of Transportation Stat
 
 In order to build the predictive model, the following attributes have been considered: • Timeslot • Carrier • Distance • Month Since the above factors played the most important role in determining delays, other factors have not been considered to maintain model accuracy.
 
-I evaluated two models:Linear SVMs and Logistic Regression.Logistic regression finds a classifier which maximizes the conditional likelihood of the training data. SVM maximizes the margin between points closest to the classification boundary.
+I evaluated two models before deciding which model to use:Linear SVMs and Logistic Regression.Logistic regression finds a classifier which maximizes the conditional likelihood of the training data. SVM maximizes the margin between points closest to the classification boundary.
 SVMs only consider points near the margin (support vectors). Logistic regression considers all the points in the data set. I decided to use the logistic regression model.
 
 First,I analyze and predict flight delays in airports based on flight records in 2007 (7 million flights) . I use Jupyter Notebook and Local Spark to read, explore, analyze and visualize results.
